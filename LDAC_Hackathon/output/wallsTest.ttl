@@ -1,5 +1,4 @@
-# baseURI: https://linkedbuildingdata.net/ifc/resources20240611_181931/
-@prefix inst: <https://linkedbuildingdata.net/ifc/resources20240611_181931/> .
+@prefix inst: <https://linkedbuildingdata.net/ifc/resources20240612_112104/> .
 @prefix ex: <http://example.org/myData#> .
 @prefix rdf:  <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <https://www.w3.org/2000/01/rdf-schema#> .
@@ -10,10 +9,8 @@
 @prefix geom:  <https://w3id.org/geom#> .
 @prefix props:  <https://w3id.org/props#> .
 
-inst: rdf:type <https://www.w3.org/2002/07/owl#Ontology> .
-
 inst:wall_35
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "1eSQ1WbIv8TBKkiQleh$Ph"^^xsd:string ;
 	props:hasCompressedGuid "1eSQ1WbIv8TBKkiQleh$Ph"^^xsd:string ;
@@ -31,7 +28,7 @@ inst:wall_35
 	props:Length "10715.0"^^xsd:double . 
 
 inst:wall_81
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "36mYT4owDBTPw2$NIIhoRX"^^xsd:string ;
 	props:hasCompressedGuid "36mYT4owDBTPw2$NIIhoRX"^^xsd:string ;
@@ -49,7 +46,7 @@ inst:wall_81
 	props:Netsidearea "52.93"^^xsd:double . 
 
 inst:wall_162
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "11xhENfhL4TOSlnjWOeCm$"^^xsd:string ;
 	props:hasCompressedGuid "11xhENfhL4TOSlnjWOeCm$"^^xsd:string ;
@@ -67,7 +64,7 @@ inst:wall_162
 	props:Length "15750.0"^^xsd:double . 
 
 inst:wall_216
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "1Fv8H3XKH3sgb0W9zbe0yV"^^xsd:string ;
 	props:hasCompressedGuid "1Fv8H3XKH3sgb0W9zbe0yV"^^xsd:string ;
@@ -85,7 +82,7 @@ inst:wall_216
 	props:Height "3000.0"^^xsd:double . 
 
 inst:wall_229
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "38hkuTYdT3xes3fpNo2Uoh"^^xsd:string ;
 	props:hasCompressedGuid "38hkuTYdT3xes3fpNo2Uoh"^^xsd:string ;
@@ -103,7 +100,7 @@ inst:wall_229
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_246
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "2rwL9Z_$n1CQKhprA9kklh"^^xsd:string ;
 	props:hasCompressedGuid "2rwL9Z_$n1CQKhprA9kklh"^^xsd:string ;
@@ -121,7 +118,7 @@ inst:wall_246
 	props:Height "3000.0"^^xsd:double . 
 
 inst:wall_268
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "3CJFwWXEH6PgOnZQTTd_xY"^^xsd:string ;
 	props:hasCompressedGuid "3CJFwWXEH6PgOnZQTTd_xY"^^xsd:string ;
@@ -139,7 +136,7 @@ inst:wall_268
 	props:Grossfootprintarea "0.5221125"^^xsd:double . 
 
 inst:wall_297
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "0drWFQL$n34QJtiNX6mzCJ"^^xsd:string ;
 	props:hasCompressedGuid "0drWFQL$n34QJtiNX6mzCJ"^^xsd:string ;
@@ -157,7 +154,7 @@ inst:wall_297
 	props:Grossvolume "1.5521625"^^xsd:double . 
 
 inst:wall_323
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "1827JDCUPE_BYT9iZoR7Az"^^xsd:string ;
 	props:hasCompressedGuid "1827JDCUPE_BYT9iZoR7Az"^^xsd:string ;
@@ -175,7 +172,7 @@ inst:wall_323
 	props:Height "3000.0"^^xsd:double . 
 
 inst:wall_335
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "2ruRol84v0fA8xIw5rwjx2"^^xsd:string ;
 	props:hasCompressedGuid "2ruRol84v0fA8xIw5rwjx2"^^xsd:string ;
@@ -193,7 +190,7 @@ inst:wall_335
 	props:Length "6810.0"^^xsd:double . 
 
 inst:wall_356
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "Default value"^^xsd:string ;
 	bot:hasGuid "2sBXjUAyj63Q2eAhy1Tx9_"^^xsd:string ;
 	props:hasCompressedGuid "2sBXjUAyj63Q2eAhy1Tx9_"^^xsd:string ;
@@ -211,7 +208,7 @@ inst:wall_356
 	props:Length "10715.0"^^xsd:double . 
 
 inst:wall_385
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "1sSWLX5rrCcQ2FFTC_OS0K"^^xsd:string ;
 	props:hasCompressedGuid "1sSWLX5rrCcQ2FFTC_OS0K"^^xsd:string ;
@@ -229,7 +226,7 @@ inst:wall_385
 	props:Grossfootprintarea "0.452025"^^xsd:double . 
 
 inst:wall_406
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "1$qZZ0vxn2KBThylNOUHWo"^^xsd:string ;
 	props:hasCompressedGuid "1$qZZ0vxn2KBThylNOUHWo"^^xsd:string ;
@@ -247,7 +244,7 @@ inst:wall_406
 	props:Length "6685.0"^^xsd:double . 
 
 inst:wall_436
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 1"^^xsd:string ;
 	bot:hasGuid "2QCgEjIxT1vBxXBXm41zFU"^^xsd:string ;
 	props:hasCompressedGuid "2QCgEjIxT1vBxXBXm41zFU"^^xsd:string ;
@@ -265,7 +262,7 @@ inst:wall_436
 	props:Grosssidearea "56.4"^^xsd:double . 
 
 inst:wall_467
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 1"^^xsd:string ;
 	bot:hasGuid "1srqPSCIX12A4TC6i3HKrO"^^xsd:string ;
 	props:hasCompressedGuid "1srqPSCIX12A4TC6i3HKrO"^^xsd:string ;
@@ -283,7 +280,7 @@ inst:wall_467
 	props:Grosssidearea "56.4"^^xsd:double . 
 
 inst:wall_495
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "2AF3VTNp1FtBaewG2l3Xtk"^^xsd:string ;
 	props:hasCompressedGuid "2AF3VTNp1FtBaewG2l3Xtk"^^xsd:string ;
@@ -301,7 +298,7 @@ inst:wall_495
 	props:Netsidearea "65.9925"^^xsd:double . 
 
 inst:wall_549
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1cZHouYp11pBmfhQW_rCqA"^^xsd:string ;
 	props:hasCompressedGuid "1cZHouYp11pBmfhQW_rCqA"^^xsd:string ;
@@ -319,7 +316,7 @@ inst:wall_549
 	props:Length "6000.0"^^xsd:double . 
 
 inst:wall_578
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 2"^^xsd:string ;
 	bot:hasGuid "3z_XrGUabF4hcdztH2RJzL"^^xsd:string ;
 	props:hasCompressedGuid "3z_XrGUabF4hcdztH2RJzL"^^xsd:string ;
@@ -337,7 +334,7 @@ inst:wall_578
 	props:Grosssidearea "16.5275"^^xsd:double . 
 
 inst:wall_628
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 2"^^xsd:string ;
 	bot:hasGuid "1tb$y3Amb7HRKayV_OuY01"^^xsd:string ;
 	props:hasCompressedGuid "1tb$y3Amb7HRKayV_OuY01"^^xsd:string ;
@@ -355,7 +352,7 @@ inst:wall_628
 	props:Grosssidearea "16.5275"^^xsd:double . 
 
 inst:wall_674
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 2"^^xsd:string ;
 	bot:hasGuid "2efpQ4y$jB3B7neQnSfufs"^^xsd:string ;
 	props:hasCompressedGuid "2efpQ4y$jB3B7neQnSfufs"^^xsd:string ;
@@ -373,7 +370,7 @@ inst:wall_674
 	props:Height "2750.0"^^xsd:double . 
 
 inst:wall_706
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 2"^^xsd:string ;
 	bot:hasGuid "3XjaVkeqT64RAtZMmgWQge"^^xsd:string ;
 	props:hasCompressedGuid "3XjaVkeqT64RAtZMmgWQge"^^xsd:string ;
@@ -391,7 +388,7 @@ inst:wall_706
 	props:Height "2750.0"^^xsd:double . 
 
 inst:wall_734
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1eOsy20Mj0iOjBk_x$G7y4"^^xsd:string ;
 	props:hasCompressedGuid "1eOsy20Mj0iOjBk_x$G7y4"^^xsd:string ;
@@ -409,7 +406,7 @@ inst:wall_734
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_741
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "3Y7mUf695DrB$Lfva9r5ex"^^xsd:string ;
 	props:hasCompressedGuid "3Y7mUf695DrB$Lfva9r5ex"^^xsd:string ;
@@ -427,7 +424,7 @@ inst:wall_741
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_748
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "2ECjt7_tPEqPpPthDWXc$T"^^xsd:string ;
 	props:hasCompressedGuid "2ECjt7_tPEqPpPthDWXc$T"^^xsd:string ;
@@ -445,7 +442,7 @@ inst:wall_748
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_755
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "0LFNsj0kH5PQpVKRxySQPJ"^^xsd:string ;
 	props:hasCompressedGuid "0LFNsj0kH5PQpVKRxySQPJ"^^xsd:string ;
@@ -463,7 +460,7 @@ inst:wall_755
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_768
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "0RJ1aCHKz0yOYQkjkImJsg"^^xsd:string ;
 	props:hasCompressedGuid "0RJ1aCHKz0yOYQkjkImJsg"^^xsd:string ;
@@ -481,7 +478,7 @@ inst:wall_768
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_775
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "2_SEa7RVXDev10MFPKjOPP"^^xsd:string ;
 	props:hasCompressedGuid "2_SEa7RVXDev10MFPKjOPP"^^xsd:string ;
@@ -499,7 +496,7 @@ inst:wall_775
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_782
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1Sz6nbhwr4i8JCkUqM9lwT"^^xsd:string ;
 	props:hasCompressedGuid "1Sz6nbhwr4i8JCkUqM9lwT"^^xsd:string ;
@@ -517,7 +514,7 @@ inst:wall_782
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_789
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "0TGgAGrovFwPWol7AMoXg_"^^xsd:string ;
 	props:hasCompressedGuid "0TGgAGrovFwPWol7AMoXg_"^^xsd:string ;
@@ -535,7 +532,7 @@ inst:wall_789
 	props:Grossfootprintarea "0.87525"^^xsd:double . 
 
 inst:wall_819
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "0bjLCzxNXCde7hOBCYE164"^^xsd:string ;
 	props:hasCompressedGuid "0bjLCzxNXCde7hOBCYE164"^^xsd:string ;
@@ -553,7 +550,7 @@ inst:wall_819
 	props:Length "6370.0"^^xsd:double . 
 
 inst:wall_840
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1iPpfzB1b8BQmYfZkc0Qf$"^^xsd:string ;
 	props:hasCompressedGuid "1iPpfzB1b8BQmYfZkc0Qf$"^^xsd:string ;
@@ -571,7 +568,7 @@ inst:wall_840
 	props:Netsidearea "11.4125"^^xsd:double . 
 
 inst:wall_854
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1_4ghExW95GgA3ctugXBND"^^xsd:string ;
 	props:hasCompressedGuid "1_4ghExW95GgA3ctugXBND"^^xsd:string ;
@@ -589,7 +586,7 @@ inst:wall_854
 	props:Netvolume "0.9534375"^^xsd:double . 
 
 inst:wall_875
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "2r0My6ezz858SQkIbgkx$a"^^xsd:string ;
 	props:hasCompressedGuid "2r0My6ezz858SQkIbgkx$a"^^xsd:string ;
@@ -607,7 +604,7 @@ inst:wall_875
 	props:Netvolume "0.9534375"^^xsd:double . 
 
 inst:wall_896
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1FoYeLNSj35OseyDld95e0"^^xsd:string ;
 	props:hasCompressedGuid "1FoYeLNSj35OseyDld95e0"^^xsd:string ;
@@ -625,7 +622,7 @@ inst:wall_896
 	props:Grossfootprintarea "0.28875"^^xsd:double . 
 
 inst:wall_910
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "14RA6D$Vb20QeEymFao44r"^^xsd:string ;
 	props:hasCompressedGuid "14RA6D$Vb20QeEymFao44r"^^xsd:string ;
@@ -643,7 +640,7 @@ inst:wall_910
 	props:Length "10715.0"^^xsd:double . 
 
 inst:wall_941
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "2cNR1heDnDYgnVGpBl8uxw"^^xsd:string ;
 	props:hasCompressedGuid "2cNR1heDnDYgnVGpBl8uxw"^^xsd:string ;
@@ -661,7 +658,7 @@ inst:wall_941
 	props:Length "15750.0"^^xsd:double . 
 
 inst:wall_993
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "ex1"^^xsd:string ;
 	bot:hasGuid "3k33TCpkDEMu5vlRofJbVS"^^xsd:string ;
 	props:hasCompressedGuid "3k33TCpkDEMu5vlRofJbVS"^^xsd:string ;
@@ -679,7 +676,7 @@ inst:wall_993
 	props:Grosssidearea "95.49"^^xsd:double . 
 
 inst:wall_1069
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "3qnWFHjF99JQfjaZqTMnwi"^^xsd:string ;
 	props:hasCompressedGuid "3qnWFHjF99JQfjaZqTMnwi"^^xsd:string ;
@@ -697,7 +694,7 @@ inst:wall_1069
 	props:Height "3000.0"^^xsd:double . 
 
 inst:wall_1077
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "3lPyC4Xcn6cB5xjxhcJKUG"^^xsd:string ;
 	props:hasCompressedGuid "3lPyC4Xcn6cB5xjxhcJKUG"^^xsd:string ;
@@ -715,7 +712,7 @@ inst:wall_1077
 	props:Height "3000.0"^^xsd:double . 
 
 inst:wall_1089
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "32LEd8okXE9fQDmiwAiWwv"^^xsd:string ;
 	props:hasCompressedGuid "32LEd8okXE9fQDmiwAiWwv"^^xsd:string ;
@@ -733,7 +730,7 @@ inst:wall_1089
 	props:Length "6810.0"^^xsd:double . 
 
 inst:wall_1108
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "Default value"^^xsd:string ;
 	bot:hasGuid "3C$xa4L6f2_9_FsOkD3TkQ"^^xsd:string ;
 	props:hasCompressedGuid "3C$xa4L6f2_9_FsOkD3TkQ"^^xsd:string ;
@@ -751,7 +748,7 @@ inst:wall_1108
 	props:Length "10715.0"^^xsd:double . 
 
 inst:wall_1143
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "2jFSBU91fDpuSdwzO96otV"^^xsd:string ;
 	props:hasCompressedGuid "2jFSBU91fDpuSdwzO96otV"^^xsd:string ;
@@ -769,7 +766,7 @@ inst:wall_1143
 	props:Length "6685.0"^^xsd:double . 
 
 inst:wall_1171
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "0t8qBdv8X6hR2tMYdq_lmQ"^^xsd:string ;
 	props:hasCompressedGuid "0t8qBdv8X6hR2tMYdq_lmQ"^^xsd:string ;
@@ -787,7 +784,7 @@ inst:wall_1171
 	props:Netsidearea "65.9925"^^xsd:double . 
 
 inst:wall_1224
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "3ynpdbi4fBxwV7Ykpervdf"^^xsd:string ;
 	props:hasCompressedGuid "3ynpdbi4fBxwV7Ykpervdf"^^xsd:string ;
@@ -805,7 +802,7 @@ inst:wall_1224
 	props:Grossvolume "2.4646875"^^xsd:double . 
 
 inst:wall_1253
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "39tYyt$1LFxAS2CzH2aQuT"^^xsd:string ;
 	props:hasCompressedGuid "39tYyt$1LFxAS2CzH2aQuT"^^xsd:string ;
@@ -823,7 +820,7 @@ inst:wall_1253
 	props:Netsidearea "23.5125"^^xsd:double . 
 
 inst:wall_1264
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "01fzxa8SL3ZR_uDz$7YrOK"^^xsd:string ;
 	props:hasCompressedGuid "01fzxa8SL3ZR_uDz$7YrOK"^^xsd:string ;
@@ -841,7 +838,7 @@ inst:wall_1264
 	props:Netsidearea "23.5125"^^xsd:double . 
 
 inst:wall_1276
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1KXle4Af92mhCGSlEbkLKS"^^xsd:string ;
 	props:hasCompressedGuid "1KXle4Af92mhCGSlEbkLKS"^^xsd:string ;
@@ -859,7 +856,7 @@ inst:wall_1276
 	props:Length "5810.0"^^xsd:double . 
 
 inst:wall_1306
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 1"^^xsd:string ;
 	bot:hasGuid "28mIYGPR9EEA4P$22e$M0k"^^xsd:string ;
 	props:hasCompressedGuid "28mIYGPR9EEA4P$22e$M0k"^^xsd:string ;
@@ -877,7 +874,7 @@ inst:wall_1306
 	props:Netvolume "7.8411375"^^xsd:double . 
 
 inst:wall_1326
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 1"^^xsd:string ;
 	bot:hasGuid "0MundV6dn6lPZ33rvL2rlj"^^xsd:string ;
 	props:hasCompressedGuid "0MundV6dn6lPZ33rvL2rlj"^^xsd:string ;
@@ -895,7 +892,7 @@ inst:wall_1326
 	props:Netsidearea "32.805"^^xsd:double . 
 
 inst:wall_1353
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "0_5GsEX$z4QvcXzBfAufJV"^^xsd:string ;
 	props:hasCompressedGuid "0_5GsEX$z4QvcXzBfAufJV"^^xsd:string ;
@@ -913,7 +910,7 @@ inst:wall_1353
 	props:Netvolume "0.297675"^^xsd:double . 
 
 inst:wall_1378
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "0PDcbyDj9Bc8rC5CPMZrOv"^^xsd:string ;
 	props:hasCompressedGuid "0PDcbyDj9Bc8rC5CPMZrOv"^^xsd:string ;
@@ -931,7 +928,7 @@ inst:wall_1378
 	props:Grossvolume "1.4175"^^xsd:double . 
 
 inst:wall_1405
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "0_Whz2pQ9AIe0i_Rpvf0ni"^^xsd:string ;
 	props:hasCompressedGuid "0_Whz2pQ9AIe0i_Rpvf0ni"^^xsd:string ;
@@ -949,7 +946,7 @@ inst:wall_1405
 	props:Grosssidearea "36.15"^^xsd:double . 
 
 inst:wall_1452
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "37MT36Grn10fgc1duWnS59"^^xsd:string ;
 	props:hasCompressedGuid "37MT36Grn10fgc1duWnS59"^^xsd:string ;
@@ -967,7 +964,7 @@ inst:wall_1452
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_1459
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "2AhQUEmi19yvMd135lEmp7"^^xsd:string ;
 	props:hasCompressedGuid "2AhQUEmi19yvMd135lEmp7"^^xsd:string ;
@@ -985,7 +982,7 @@ inst:wall_1459
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_1466
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1XGJW0HyH1NOL7p1WHGzyy"^^xsd:string ;
 	props:hasCompressedGuid "1XGJW0HyH1NOL7p1WHGzyy"^^xsd:string ;
@@ -1003,7 +1000,7 @@ inst:wall_1466
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_1473
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "0WK3ROOyjEDwP3Rhes7FQW"^^xsd:string ;
 	props:hasCompressedGuid "0WK3ROOyjEDwP3Rhes7FQW"^^xsd:string ;
@@ -1021,7 +1018,7 @@ inst:wall_1473
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_1480
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1TJj43XiXCS9hb_mvkS$NC"^^xsd:string ;
 	props:hasCompressedGuid "1TJj43XiXCS9hb_mvkS$NC"^^xsd:string ;
@@ -1039,7 +1036,7 @@ inst:wall_1480
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_1487
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1Rmn6CZsn9VuQKMFtrwBLV"^^xsd:string ;
 	props:hasCompressedGuid "1Rmn6CZsn9VuQKMFtrwBLV"^^xsd:string ;
@@ -1057,7 +1054,7 @@ inst:wall_1487
 	props:Length "4200.0"^^xsd:double . 
 
 inst:wall_1494
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "1CORGOgKn5cRb$jVohqWAI"^^xsd:string ;
 	props:hasCompressedGuid "1CORGOgKn5cRb$jVohqWAI"^^xsd:string ;
@@ -1075,7 +1072,7 @@ inst:wall_1494
 	props:Length "6370.0"^^xsd:double . 
 
 inst:wall_1513
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "INT 2"^^xsd:string ;
 	bot:hasGuid "0HPIhoo8T0I9xzBGJsHDBj"^^xsd:string ;
 	props:hasCompressedGuid "0HPIhoo8T0I9xzBGJsHDBj"^^xsd:string ;
@@ -1093,7 +1090,7 @@ inst:wall_1513
 	props:Length "6100.0"^^xsd:double . 
 
 inst:wall_1535
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "3OYl8OHzv7RR0FE326faEf"^^xsd:string ;
 	props:hasCompressedGuid "3OYl8OHzv7RR0FE326faEf"^^xsd:string ;
@@ -1111,7 +1108,7 @@ inst:wall_1535
 	props:Length "775.0"^^xsd:double . 
 
 inst:wall_1550
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "0O7egXHZb7quDdUQJscvla"^^xsd:string ;
 	props:hasCompressedGuid "0O7egXHZb7quDdUQJscvla"^^xsd:string ;
@@ -1129,7 +1126,7 @@ inst:wall_1550
 	props:Length "775.0"^^xsd:double . 
 
 inst:wall_1563
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 3"^^xsd:string ;
 	bot:hasGuid "1UBdmtdYD6EgdmjMGRm5XI"^^xsd:string ;
 	props:hasCompressedGuid "1UBdmtdYD6EgdmjMGRm5XI"^^xsd:string ;
@@ -1147,7 +1144,7 @@ inst:wall_1563
 	props:Length "15915.0"^^xsd:double . 
 
 inst:wall_1600
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 3"^^xsd:string ;
 	bot:hasGuid "2EH_osT_L5sAoioWFOsv1A"^^xsd:string ;
 	props:hasCompressedGuid "2EH_osT_L5sAoioWFOsv1A"^^xsd:string ;
@@ -1165,7 +1162,7 @@ inst:wall_1600
 	props:Netvolume "0.24258891"^^xsd:double . 
 
 inst:wall_1632
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 3"^^xsd:string ;
 	bot:hasGuid "1egdWqIF18QO1VjHFP7ULs"^^xsd:string ;
 	props:hasCompressedGuid "1egdWqIF18QO1VjHFP7ULs"^^xsd:string ;
@@ -1183,7 +1180,7 @@ inst:wall_1632
 	props:Grossfootprintarea "0.936"^^xsd:double . 
 
 inst:wall_1657
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 3"^^xsd:string ;
 	bot:hasGuid "0DHZi3TmPEqRGEv$I_rgMq"^^xsd:string ;
 	props:hasCompressedGuid "0DHZi3TmPEqRGEv$I_rgMq"^^xsd:string ;
@@ -1201,7 +1198,7 @@ inst:wall_1657
 	props:Netsidearea "30.840378"^^xsd:double . 
 
 inst:wall_1690
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 3"^^xsd:string ;
 	bot:hasGuid "2Zb9cCDT5E_Bl7hDUvprWx"^^xsd:string ;
 	props:hasCompressedGuid "2Zb9cCDT5E_Bl7hDUvprWx"^^xsd:string ;
@@ -1219,7 +1216,7 @@ inst:wall_1690
 	props:Grossfootprintarea "1.492125"^^xsd:double . 
 
 inst:wall_1716
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 3"^^xsd:string ;
 	bot:hasGuid "04g4Hxd0T9lAvPGTmX1QkM"^^xsd:string ;
 	props:hasCompressedGuid "04g4Hxd0T9lAvPGTmX1QkM"^^xsd:string ;
@@ -1237,7 +1234,7 @@ inst:wall_1716
 	props:Length "6892.5"^^xsd:double . 
 
 inst:wall_1741
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 3"^^xsd:string ;
 	bot:hasGuid "3qKyo4XZbFsB7zUKvs$Tgd"^^xsd:string ;
 	props:hasCompressedGuid "3qKyo4XZbFsB7zUKvs$Tgd"^^xsd:string ;
@@ -1255,7 +1252,7 @@ inst:wall_1741
 	props:Netvolume "2.3133355"^^xsd:double . 
 
 inst:wall_1770
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 3"^^xsd:string ;
 	bot:hasGuid "2pwVDkwzj9iOAyDCOyiAGH"^^xsd:string ;
 	props:hasCompressedGuid "2pwVDkwzj9iOAyDCOyiAGH"^^xsd:string ;
@@ -1273,7 +1270,7 @@ inst:wall_1770
 	props:Grossvolume "0.40745172"^^xsd:double . 
 
 inst:wall_1807
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 3"^^xsd:string ;
 	bot:hasGuid "24TQp2z6n22PbZJcjc2Tqy"^^xsd:string ;
 	props:hasCompressedGuid "24TQp2z6n22PbZJcjc2Tqy"^^xsd:string ;
@@ -1291,7 +1288,7 @@ inst:wall_1807
 	props:Length "6157.5"^^xsd:double . 
 
 inst:wall_1838
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EXT 3"^^xsd:string ;
 	bot:hasGuid "1HAbZPRCj2dvL8fJYnydon"^^xsd:string ;
 	props:hasCompressedGuid "1HAbZPRCj2dvL8fJYnydon"^^xsd:string ;
@@ -1309,7 +1306,7 @@ inst:wall_1838
 	props:Grossvolume "0.216"^^xsd:double . 
 
 inst:wall_1851
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "1HaIufEeDFT8tAeOOd6DSk"^^xsd:string ;
 	props:hasCompressedGuid "1HaIufEeDFT8tAeOOd6DSk"^^xsd:string ;
@@ -1327,7 +1324,7 @@ inst:wall_1851
 	props:Netsidearea "0.96545333"^^xsd:double . 
 
 inst:wall_1951
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "0BGiQsFOr4xBif8aVEc1e8"^^xsd:string ;
 	props:hasCompressedGuid "0BGiQsFOr4xBif8aVEc1e8"^^xsd:string ;
@@ -1345,7 +1342,7 @@ inst:wall_1951
 	props:Height "392.16705"^^xsd:double . 
 
 inst:wall_1992
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "29qKSjI9r5bREx9pibk7Pj"^^xsd:string ;
 	props:hasCompressedGuid "29qKSjI9r5bREx9pibk7Pj"^^xsd:string ;
@@ -1363,7 +1360,7 @@ inst:wall_1992
 	props:Grosssidearea "0.64622899"^^xsd:double . 
 
 inst:wall_2037
-	rdf:type ex:walls ;
+	a ex:walls ;
 	rdfs:label "EX 1"^^xsd:string ;
 	bot:hasGuid "1XD1jbncz0iO$xZNYDBSR8"^^xsd:string ;
 	props:hasCompressedGuid "1XD1jbncz0iO$xZNYDBSR8"^^xsd:string ;
