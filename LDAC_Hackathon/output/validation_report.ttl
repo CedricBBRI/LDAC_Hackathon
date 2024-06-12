@@ -1,635 +1,69 @@
-@prefix ex: <http://example.org/myData#> .
+@prefix props: <https://w3id.org/props#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 [] a sh:ValidationReport ;
     sh:conforms false ;
     sh:result [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1143> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2jFSBU91fDpuSdwzO96otV. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1143> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1276> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1KXle4Af92mhCGSlEbkLKS. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1276> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_993> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3k33TCpkDEMu5vlRofJbVS. Result: False. Value: 0.12" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_993> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_768> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0RJ1aCHKz0yOYQkjkImJsg. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_768> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_549> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1cZHouYp11pBmfhQW_rCqA. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_549> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_854> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1_4ghExW95GgA3ctugXBND. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_854> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_741> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3Y7mUf695DrB$Lfva9r5ex. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_741> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_782> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1Sz6nbhwr4i8JCkUqM9lwT. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_782> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_748> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2ECjt7_tPEqPpPthDWXc$T. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_748> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_775> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2_SEa7RVXDev10MFPKjOPP. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_775> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1716> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 04g4Hxd0T9lAvPGTmX1QkM. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1716> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_216> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1Fv8H3XKH3sgb0W9zbe0yV. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_216> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1459> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2AhQUEmi19yvMd135lEmp7. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1459> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_323> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1827JDCUPE_BYT9iZoR7Az. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_323> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1770> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2pwVDkwzj9iOAyDCOyiAGH. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1770> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_229> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 38hkuTYdT3xes3fpNo2Uoh. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_229> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_297> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0drWFQL$n34QJtiNX6mzCJ. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_297> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1513> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0HPIhoo8T0I9xzBGJsHDBj. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1513> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1452> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 37MT36Grn10fgc1duWnS59. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1452> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1657> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0DHZi3TmPEqRGEv$I_rgMq. Result: False. Value: 0.15" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1657> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_467> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1srqPSCIX12A4TC6i3HKrO. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_467> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1405> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0_Whz2pQ9AIe0i_Rpvf0ni. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1405> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1224> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3ynpdbi4fBxwV7Ykpervdf. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1224> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_406> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1$qZZ0vxn2KBThylNOUHWo. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_406> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_335> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2ruRol84v0fA8xIw5rwjx2. Result: False. Value: 0.12" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_335> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_755> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0LFNsj0kH5PQpVKRxySQPJ. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_755> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1690> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2Zb9cCDT5E_Bl7hDUvprWx. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1690> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_910> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 14RA6D$Vb20QeEymFao44r. Result: False. Value: 0.15" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_910> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_2037> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1XD1jbncz0iO$xZNYDBSR8. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_2037> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1306> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 28mIYGPR9EEA4P$22e$M0k. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1306> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_674> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2efpQ4y$jB3B7neQnSfufs. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_674> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_628> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1tb$y3Amb7HRKayV_OuY01. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_628> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1741> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3qKyo4XZbFsB7zUKvs$Tgd. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1741> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1535> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3OYl8OHzv7RR0FE326faEf. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1535> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_356> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2sBXjUAyj63Q2eAhy1Tx9_. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_356> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_875> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2r0My6ezz858SQkIbgkx$a. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_875> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1171> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0t8qBdv8X6hR2tMYdq_lmQ. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1171> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1951> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0BGiQsFOr4xBif8aVEc1e8. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1951> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1992> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 29qKSjI9r5bREx9pibk7Pj. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1992> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_268> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3CJFwWXEH6PgOnZQTTd_xY. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_268> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_81> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 36mYT4owDBTPw2$NIIhoRX. Result: False. Value: 0.12" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_81> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1632> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1egdWqIF18QO1VjHFP7ULs. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1632> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1108> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3C$xa4L6f2_9_FsOkD3TkQ. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1108> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1089> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 32LEd8okXE9fQDmiwAiWwv. Result: False. Value: 0.12" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1089> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_385> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1sSWLX5rrCcQ2FFTC_OS0K. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_385> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_941> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2cNR1heDnDYgnVGpBl8uxw. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_941> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1851> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1HaIufEeDFT8tAeOOd6DSk. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1851> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1253> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 39tYyt$1LFxAS2CzH2aQuT. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1253> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1807> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 24TQp2z6n22PbZJcjc2Tqy. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1807> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1487> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1Rmn6CZsn9VuQKMFtrwBLV. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1487> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1600> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2EH_osT_L5sAoioWFOsv1A. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1600> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_246> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2rwL9Z_$n1CQKhprA9kklh. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_246> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1550> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0O7egXHZb7quDdUQJscvla. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1550> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1264> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 01fzxa8SL3ZR_uDz$7YrOK. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1264> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_789> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0TGgAGrovFwPWol7AMoXg_. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_789> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1069> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3qnWFHjF99JQfjaZqTMnwi. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1069> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_896> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1FoYeLNSj35OseyDld95e0. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_896> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1353> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0_5GsEX$z4QvcXzBfAufJV. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1353> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_819> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0bjLCzxNXCde7hOBCYE164. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_819> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_495> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2AF3VTNp1FtBaewG2l3Xtk. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_495> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1378> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0PDcbyDj9Bc8rC5CPMZrOv. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1378> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_162> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 11xhENfhL4TOSlnjWOeCm$. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_162> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1473> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0WK3ROOyjEDwP3Rhes7FQW. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1473> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1838> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1HAbZPRCj2dvL8fJYnydon. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1838> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1326> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 0MundV6dn6lPZ33rvL2rlj. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1326> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_840> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1iPpfzB1b8BQmYfZkc0Qf$. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_840> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_706> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3XjaVkeqT64RAtZMmgWQge. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_706> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_734> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1eOsy20Mj0iOjBk_x$G7y4. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_734> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1494> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1CORGOgKn5cRb$jVohqWAI. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1494> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_35> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1eSQ1WbIv8TBKkiQleh$Ph. Result: False. Value: 0.15" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_35> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1466> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1XGJW0HyH1NOL7p1WHGzyy. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1466> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1077> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3lPyC4Xcn6cB5xjxhcJKUG. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1077> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_436> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 2QCgEjIxT1vBxXBXm41zFU. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_436> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1563> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1UBdmtdYD6EgdmjMGRm5XI. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1563> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_578> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 3z_XrGUabF4hcdztH2RJzL. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_578> ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1480> ;
-            sh:resultMessage "Thermal transmittance exceeds the limit for wall with GUID: 1TJj43XiXCS9hb_mvkS$NC. Result: False. Value: 0.1" ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraint _:n54d3e66db55b4622b0f62d977629b2f8b1 ;
-            sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape ex:WallShape ;
-            sh:value <https://linkedbuildingdata.net/ifc/resources20240612_112104/wall_1480> ] .
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_35> ;
+            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
+            sh:resultPath props:Thermaltransmittance ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
+            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:value 1.5e-01 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_993> ;
+            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
+            sh:resultPath props:Thermaltransmittance ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
+            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:value 1.2e-01 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_1657> ;
+            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
+            sh:resultPath props:Thermaltransmittance ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
+            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:value 1.5e-01 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_910> ;
+            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
+            sh:resultPath props:Thermaltransmittance ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
+            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:value 1.5e-01 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_335> ;
+            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
+            sh:resultPath props:Thermaltransmittance ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
+            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:value 1.2e-01 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_81> ;
+            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
+            sh:resultPath props:Thermaltransmittance ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
+            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:value 1.2e-01 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_1089> ;
+            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
+            sh:resultPath props:Thermaltransmittance ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
+            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:value 1.2e-01 ] .
 
-_:N0ebd057cb1cc42d0867c253d71d617eb sh:namespace "https://w3id.org/bot#"^^xsd:anyURI ;
-    sh:prefix "bot" .
-
-_:N16536453cb784189a12904f24f2b9b09 sh:namespace "https://w3id.org/props#"^^xsd:anyURI ;
-    sh:prefix "props" .
-
-_:Nc543de3874a142feb1f168a8f0399707 sh:declare _:N0ebd057cb1cc42d0867c253d71d617eb,
-        _:N16536453cb784189a12904f24f2b9b09 .
-
-_:n54d3e66db55b4622b0f62d977629b2f8b1 a sh:SPARQLConstraint ;
-    sh:message "Thermal transmittance exceeds the limit for wall with GUID: {$guid}. Result: {$result}. Value: {$transmittance}" ;
-    sh:prefixes _:Nc543de3874a142feb1f168a8f0399707 ;
-    sh:select """
-            SELECT ?this ?guid ?result ?transmittance WHERE {
-                ?this bot:hasGuid ?guid .
-                ?this props:Thermaltransmittance ?transmittance .
-                BIND(IF(?transmittance > 0.11, "False", "True") AS ?result)
-            }
-        """ .
+_:n94fd0752864747b4be4dc4517f120a30b1 sh:datatype xsd:double ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 0.11 ;
+    sh:minCount 1 ;
+    sh:path props:Thermaltransmittance .
 
