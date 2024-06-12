@@ -5,63 +5,63 @@
 [] a sh:ValidationReport ;
     sh:conforms false ;
     sh:result [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_35> ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_155417/wall_260121> ;
             sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
             sh:resultPath props:Thermaltransmittance ;
             sh:resultSeverity sh:Violation ;
             sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
-            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
-            sh:value 1.5e-01 ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_993> ;
-            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
-            sh:resultPath props:Thermaltransmittance ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
-            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:sourceShape _:ne587f4bb90124cd79d4e7eb816506acdb1 ;
             sh:value 1.2e-01 ],
         [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_1657> ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_155417/wall_260945> ;
             sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
             sh:resultPath props:Thermaltransmittance ;
             sh:resultSeverity sh:Violation ;
             sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
-            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:sourceShape _:ne587f4bb90124cd79d4e7eb816506acdb1 ;
             sh:value 1.5e-01 ],
         [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_910> ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_155417/wall_261028> ;
             sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
             sh:resultPath props:Thermaltransmittance ;
             sh:resultSeverity sh:Violation ;
             sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
-            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:sourceShape _:ne587f4bb90124cd79d4e7eb816506acdb1 ;
+            sh:value 1.2e-01 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_155417/wall_260073> ;
+            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
+            sh:resultPath props:Thermaltransmittance ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
+            sh:sourceShape _:ne587f4bb90124cd79d4e7eb816506acdb1 ;
             sh:value 1.5e-01 ],
         [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_335> ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_155417/wall_261689> ;
             sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
             sh:resultPath props:Thermaltransmittance ;
             sh:resultSeverity sh:Violation ;
             sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
-            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:sourceShape _:ne587f4bb90124cd79d4e7eb816506acdb1 ;
+            sh:value 1.5e-01 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_155417/wall_261124> ;
+            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
+            sh:resultPath props:Thermaltransmittance ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
+            sh:sourceShape _:ne587f4bb90124cd79d4e7eb816506acdb1 ;
             sh:value 1.2e-01 ],
         [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_81> ;
+            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_155417/wall_260372> ;
             sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
             sh:resultPath props:Thermaltransmittance ;
             sh:resultSeverity sh:Violation ;
             sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
-            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
-            sh:value 1.2e-01 ],
-        [ a sh:ValidationResult ;
-            sh:focusNode <https://linkedbuildingdata.net/ifc/resources20240612_150601/wall_1089> ;
-            sh:resultMessage "Value is not <= Literal(\"0.11\", datatype=xsd:decimal)" ;
-            sh:resultPath props:Thermaltransmittance ;
-            sh:resultSeverity sh:Violation ;
-            sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
-            sh:sourceShape _:n94fd0752864747b4be4dc4517f120a30b1 ;
+            sh:sourceShape _:ne587f4bb90124cd79d4e7eb816506acdb1 ;
             sh:value 1.2e-01 ] .
 
-_:n94fd0752864747b4be4dc4517f120a30b1 sh:datatype xsd:double ;
+_:ne587f4bb90124cd79d4e7eb816506acdb1 sh:datatype xsd:double ;
     sh:maxCount 1 ;
     sh:maxInclusive 0.11 ;
     sh:minCount 1 ;
